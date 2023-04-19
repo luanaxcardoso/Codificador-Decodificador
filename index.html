@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="reset.css">
+    <script type="text/javascript" src="codigo.js"></script>
+    <title>Challenge-Alura</title>
+</head>
+
+<body>
+    
+    <header class="header">
+        <a id="logodaAlura">
+            <img src="logoAlura.svg" alt="Logo da Alura">
+        </a>
+        <a href="https://www.linkedin.com/in/luana-cardoso-b67965246/"class="header__link">
+            <img class="icone" src="linkedin.svg" alt="Linkedin">
+        </a>
+        <a href="https://github.com/luanaxcardoso"class="header__link">
+            <img class="icone" src="github.svg" alt="GitHub">
+        </a> 
+    
+    </header>
+    <H1 class="titulotexto">CODIFICADOR E DECODIFICADOR DE PALAVRAS</H1>
+
+    <main>     
+        
+        <section class="secao1">
+            <H2 class="digiteminusculas">Digite palavras com letras minúsculas, sem espaço e sem acentos</H2>           
+            <input type="text" id="textoCodificado" placeholder="DIGITE OU COLE "oninput="this.value=this.value.replace(/[^a-z]/g,'')" style="font-size: 38px;">
+            <textarea name="resposta" id="textoDecodificado"  cols="100" rows="10"></textarea>
+            <input type="button" value="CODIFICAR" id="botaoCodificar">
+            <input type="button" value="COPIAR" id="botaoCopiar"> 
+            <button id="botaoColar" onclick="colar()">COLAR</button>
+            <input type="button" value="DECODIFICAR" id="botaoDecodificar">
+             
+        </section>   
+
+        <section class="secao2">
+            <div class="imagemgarotolupa">
+                <img src="garotoLupa.svg" alt="garoto com uma lupa">
+            </div>
+        </section>
+                     
+    </main>
+    
+</body>
+<script>
+    var btn = document.querySelector("#botaoCodificar");
+    btn.onclick = codificar;
+    
+    var btn2 = document.querySelector("#botaoCopiar");
+    btn2.onclick = copiar;
+    var btn3 = document.querySelector("#botaoColar");
+    btn3.onclick = colar;
+    var btn4 = document.querySelector("#botaoDecodificar");
+    btn4.onclick = decodificar;
+ 
+</script>        
+
+<footer class="footer">
+    <span class="footer__texto">
+        Feito com 
+        <img class="icone icone--texto" src="heart2-1.svg" alt="coraçao"> por Luana 
+    </span>
+</footer>   
+</html>
