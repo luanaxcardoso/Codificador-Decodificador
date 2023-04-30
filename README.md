@@ -4,7 +4,7 @@
 <div align="center">
 <h1>Acesse o projeto aqui ⬇</h1> 
 
-<h1>https://luanaxcardoso.github.io/Codificador-Decodificador/</h1>
+<h2>https://luanaxcardoso.github.io/Codificador-Decodificador/</h2>
 
 <div align="center">
 <h1>Challenge Alura</h1>
