@@ -2,7 +2,7 @@
 <h1>🔒Codificador e Decodificador de palavras🔒</h1>
  
 <div align="center">
-<h1>Acesse o projeto aqui ⬇</h1> 
+<h2>Acesse o projeto aqui ⬇</h2> 
 
 <h2>https://luanaxcardoso.github.io/Codificador-Decodificador/</h2>
 
